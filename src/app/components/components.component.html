@@ -1,0 +1,255 @@
+
+
+<div class="wrapper">
+    <div class="page-header section-dark" style="background-image: url('assets/img/wallpaper.png')">
+        <div class="filter"></div>
+        <div class="content-center">
+            <div class="container">
+                <div class="title-brand">
+                    <div class="angular-logo">
+                        <!-- <img src="assets/img/angular2-logo.png" alt=""> -->
+                    </div>
+                    <h6 class="presentation-title" style="font-family:Times New Roman;">Covid-19</h6>
+                    <h2 style="font-family:cursive;">Live situational details</h2>
+                    <h4>Last update: {{this.finals.update_date_time}}</h4>
+
+                </div>
+
+                <!-- <h2 class="presentation-subtitle text-center">Free Bootstrap 4 UI Kit for Angular 7</h2> -->
+            </div>
+        </div>
+
+    </div>
+
+    <!-- <div *ngFor="let final of finals"> -->
+
+        <section class="bg-light page-section" id="srilanka">
+            <div class="section text-center" style="background-image: url('assets/img/sri.jpg');">
+                <div class="filter"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 mr-auto ml-auto">
+                            <h2 class="title"><b>COVID-19 : Live Situational Details of Sri Lanka</b></h2>
+                            <h5 class="description">All the details gathered from the www.hpb.health.gov.lk website
+                            </h5>
+                            <br>
+                        </div>
+                    </div>
+                    <br /><br />
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="info">
+                                <div class="card detail-card" style="background-color: #ffffff;">
+                                    <div class="card-image">
+                                        <div class="description">
+                                            <h4 class="info-title">Total Confirmed Cases</h4>
+                                            <h3 class="info-title">{{this.finals.local_total_cases}}</h3>
+                                            <br>
+                                            <!-- <a href="#pkp" class="btn btn-link btn-danger">See more</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="info">
+                                <div class="card detail-card" style="background-color: #ffffff;">
+                                    <div class="card-image">
+                                        <div class="description">
+                                            <h4 class="info-title">Total New Cases</h4>
+                                            <h3 class="info-title">{{this.finals.local_new_cases}}</h3>
+                                            <br>
+                                            <!-- <a href="#pkp" class="btn btn-link btn-danger">See more</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="info">
+                                <div class="card detail-card" style="background-color: #ffffff;">
+                                    <div class="card-image">
+                                        <div class="description">
+                                            <h4 class="info-title">Total Active Cases</h4>
+                                            <h3 class="info-title">{{this.finals.local_active_cases}}</h3>
+                                            <br>
+                                            <!-- <a href="#pkp" class="btn btn-link btn-danger">See more</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br><br>
+                        <div class="col-md-4">
+                            <div class="info">
+                                <div class="card detail-card" style="background-color: #ffffff;">
+                                    <div class="card-image">
+                                        <div class="description">
+                                            <h4 class="info-title">Total Recovered Cases</h4>
+                                            <h3 class="info-title">{{this.finals.local_recovered}}</h3>
+                                            <br>
+                                            <!-- <a href="#pkp" class="btn btn-link btn-danger">See more</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br><br>
+                        <div class="col-md-4">
+                            <div class="info">
+                                <div class="card detail-card" style="background-color: #ffffff;">
+                                    <div class="card-image">
+                                        <!--<div class="icon icon-danger">
+                                        <i class="nc-icon nc-album-2"></i>
+                                    </div> -->
+                                        <div class="description">
+                                            <h4 class="info-title">Total Deaths</h4>
+                                            <h3 class="info-title">{{this.finals.local_deaths}}</h3>
+                                            <br>
+                                            <!-- <a href="#pkp" class="btn btn-link btn-danger">See more</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br><br>
+                        <div class="col-md-4">
+                            <div class="info">
+                                <div class="card detail-card" style="background-color: #ffffff;">
+                                    <div class="card-image">
+
+                                        <div class="description">
+                                            <h4 class="info-title">Total Suspected Cases</h4>
+                                            <h3 class="info-title">{{this.finals.local_total_number_of_individuals_in_hospitals}}</h3>
+                                            <br>
+                                            <!-- <a href="#pkp" class="btn btn-link btn-danger">See more</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    <!-- </div> -->
+    <section class="bg-light page-section" id="worldwide">
+        <div class="section text-center" style="background-image: url('assets/img/world2.jpg');">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 mr-auto ml-auto">
+                        <h2 class="title"><b>COVID-19 : WORLD STATUS</b></h2>
+                        <h5 class="description">All the details gathered from the www.hpb.health.gov.lk website
+                        </h5>
+                        <br>
+                    </div>
+                </div>
+                <br /><br />
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="info">
+                            <div class="card detail-card" style="background-color: #ffffff;">
+                                <div class="card-image">
+                                    <div class="description">
+                                        <h4 class="info-title">Total Confirmed Cases</h4>
+                                        <h3 class="info-title">{{this.finals.global_total_cases}}</h3>
+                                        <br>
+                                        <!-- <a href="#pkp" class="btn btn-link btn-danger">See more</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="info">
+                            <div class="card detail-card" style="background-color: #ffffff;">
+                                <div class="card-image">
+                                    <div class="description">
+                                        <h4 class="info-title">Total New Cases</h4>
+                                        <h3 class="info-title">{{this.finals.global_new_cases}}</h3>
+                                        <br>
+                                        <!-- <a href="#pkp" class="btn btn-link btn-danger">See more</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="col-md-4">
+                        <div class="info">
+                            <div class="card detail-card" style="background-color: #ffffff;">
+                                <div class="card-image">
+                                    <div class="description">
+                                        <h4 class="info-title">Total Recovered Cases</h4>
+                                        <h3 class="info-title">{{this.finals.global_recovered}}</h3>
+                                        <br>
+                                        <!-- <a href="#pkp" class="btn btn-link btn-danger">See more</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="col-md-6">
+                        <div class="info">
+                            <div class="card detail-card" style="background-color: #ffffff;">
+                                <div class="card-image">
+                                    <!--<div class="icon icon-danger">
+                                        <i class="nc-icon nc-album-2"></i>
+                                    </div> -->
+                                    <div class="description">
+                                        <h4 class="info-title">Total Deaths(Last 24hrs)</h4>
+                                        <h3 class="info-title">{{this.finals.global_new_deaths}}</h3>
+                                        <br>
+                                        <!-- <a href="#pkp" class="btn btn-link btn-danger">See more</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="col-md-6">
+                        <div class="info">
+                            <div class="card detail-card" style="background-color: #ffffff;">
+                                <div class="card-image">
+
+                                    <div class="description">
+                                        <h4>Total Deaths</h4>
+                                        <h3 class="info-title">{{this.finals.global_deaths}}</h3>
+                                        <br>
+                                        <!-- <a href="#pkp" class="btn btn-link btn-danger">See more</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-light page-section" id="symptoms">
+        <div class="section text-center">
+            <div class="container">
+                <div class="col-md col-sm portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" [routerLink]="['/categories','carpenter']">
+                        <img class="img-fluid" src="assets/img/sym2.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-light page-section" id="prevention">
+        <div class="section text-center">
+            <div class="container">
+                <div class="col-md col-sm portfolio-item">
+                    <a class="portfolio-link" data-toggle="modal" [routerLink]="['/categories','carpenter']">
+                        <img class="img-fluid" src="assets/img/abc.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+

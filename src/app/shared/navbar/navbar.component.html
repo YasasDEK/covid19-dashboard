@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="500">
+    <div class="container">
+        <div class="navbar-translate">
+            <a class="navbar-brand" [routerLink]="['/home']">Covid-19 updates</a>
+            <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
+                <span class="navbar-toggler-bar"></span>
+                <span class="navbar-toggler-bar"></span>
+                <span class="navbar-toggler-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#srilanka"><i class="nc-icon nc-pin-3"
+                            aria-hidden="true"></i>&nbsp;Sri Lanka</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#worldwide"><i class="nc-icon nc-world-2"
+                            aria-hidden="true"></i>&nbsp;WOrld wide</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#symptoms"><i class="nc-icon nc-ambulance"
+                            aria-hidden="true"></i>&nbsp;symptoms</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#prevention"><i class="nc-icon nc-bulb-63"
+                            aria-hidden="true"></i>&nbsp;prevention</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
